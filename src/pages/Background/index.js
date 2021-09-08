@@ -20,7 +20,7 @@ const setCookies = (domain, name, callback) => {
 setInterval(() => {
     getCookies("https://www.linkedin.com", "JSESSIONID", function (id) {
         // Save it using the Chrome extension storage API.
-        chrome.storage.sync.set({ 'JSESSIONID': id }, function () {
+        chrome.storage.local.set({ 'JSESSIONID': id }, function () {
             console.log('Session ID saved');
         });
     });
