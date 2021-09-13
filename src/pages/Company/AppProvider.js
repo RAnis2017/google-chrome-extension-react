@@ -167,6 +167,7 @@ class AppProvider extends Component {
                         volunteerCauses: res?.elements[0]?.volunteerCauses,
                         supportedLocales: res?.elements[0]?.supportedLocales
                     })
+
                     chrome.storage.local.set({ organizations: this.state.profiles }, () => {
                         chrome.storage.local.get(['organizations'], (item) => {
                             console.log('Saved Profiles For Organization', item)
@@ -195,6 +196,7 @@ class AppProvider extends Component {
                     isSearching: this.state.isSearching,
                     searchJobs: this.state.searchJobs,
                     companies: this.state.companies,
+                    profiles: this.state.profiles,
                     changeSelectedCompany: company => {
                         console.log(company)
                         this.setState({

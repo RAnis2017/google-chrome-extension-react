@@ -1,0 +1,2867 @@
+{
+    "birthDateDay": 18,
+    "birthDateMonth": 7,
+    "countryCode": "us",
+    "firstName": "Hamza",
+    "headline": "Software Engineer at Facebook",
+    "industryName": "Internet",
+    "isInfluencer": false,
+    "lastName": "M.",
+    "primaryLocaleCountry": "US",
+    "primaryLocaleLanguage": "en",
+    "profileCertifications": [
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCertification",
+            "authority": "Code School",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkableMiniCompany",
+                "entityUrn": "urn:li:fsd_company:2667670",
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkableminicompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1519889011060?e=1639612800&v=beta&t=uYK25DXDbriwBa-7Ja_bhaWmzS3clObw0bO9qAnV98I",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1519889011060?e=1639612800&v=beta&t=U1yDNqc7PQlZuzL7ezJxpD-MSbTLlV5puBmJ46s8CRU",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1519889011060?e=1639612800&v=beta&t=Hq8jiJunAO8J0EROG4T0KfntPKGf53uLsiMPemFMUz0",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQGt27EeHZHK3g/company-logo_"
+                    }
+                },
+                "name": "Code School",
+                "universalName": "code-school",
+                "url": "https://www.linkedin.com/company/code-school/"
+            },
+            "companyUrn": "urn:li:fsd_company:2667670",
+            "dateRange": {
+                "start": {
+                    "month": 5,
+                    "year": 2015
+                }
+            },
+            "displaySource": "codeschool.com",
+            "entityUrn": "urn:li:fsd_profileCertification:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1463887172)",
+            "multiLocaleAuthority": {
+                "en_US": "Code School"
+            },
+            "multiLocaleName": {
+                "en_US": "shaping-up-with-angular-js"
+            },
+            "name": "shaping-up-with-angular-js",
+            "url": "https://www.codeschool.com/courses/shaping-up-with-angular-js"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCertification",
+            "authority": "Coursera",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkableMiniCompany",
+                "entityUrn": "urn:li:fsd_company:2453129",
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkableminicompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1608039227697?e=1639612800&v=beta&t=NpV1nq1DCMV93amEQ-GdoR5aef47gv7kSk_3ClvHTbo",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1608039227697?e=1639612800&v=beta&t=NJUd3f2pC-nnHPX0T26gtZiM6GT1G4C4hQB6W9E4TfQ",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1608039227697?e=1639612800&v=beta&t=tqmNd8wQeHkkRJxtN8w_57Y9zhBv-qwFF4Z_D0z5WrU",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_"
+                    }
+                },
+                "name": "Coursera",
+                "universalName": "coursera",
+                "url": "https://www.linkedin.com/company/coursera/"
+            },
+            "companyUrn": "urn:li:fsd_company:2453129",
+            "dateRange": {
+                "start": {
+                    "month": 3,
+                    "year": 2015
+                }
+            },
+            "displaySource": "coursera.org",
+            "entityUrn": "urn:li:fsd_profileCertification:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1463887171)",
+            "multiLocaleAuthority": {
+                "en_US": "Coursera"
+            },
+            "multiLocaleName": {
+                "en_US": "The Data Scientist’s Toolbox"
+            },
+            "name": "The Data Scientist’s Toolbox",
+            "url": "https://www.coursera.org/course/datascitoolbox"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCertification",
+            "authority": "IBM",
+            "dateRange": {
+                "start": {
+                    "month": 12,
+                    "year": 2012
+                }
+            },
+            "entityUrn": "urn:li:fsd_profileCertification:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,30)",
+            "multiLocaleAuthority": {
+                "en_US": "IBM"
+            },
+            "multiLocaleName": {
+                "en_US": "IBM DB2 Certification"
+            },
+            "name": "IBM DB2 Certification"
+        }
+    ],
+    "profileCourses": [],
+    "profileEducations": [
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducation",
+            "dateRange": {
+                "end": {
+                    "year": 2019
+                },
+                "start": {
+                    "year": 2017
+                }
+            },
+            "degreeName": "Master's degree",
+            "degreeUrn": "urn:li:fsd_degree:500",
+            "description": "− Courses: Theory of Algorithms, Data Analytics, Computational Social Science, Virtual Environment, Software Engineering, Information Storage and Retrieval, Microprocessor Programming,  Advanced Machine Learning, Statistics in Research.\n\n- Thesis: Disseminating Learning Tools Interoperability Standards https://vtechworks.lib.vt.edu/handle/10919/90772\n\nPapers:\n- Auto-grading Jupyter Notebooks (https://doi.org/10.1145/3328778.3366947)\n- Crossing the Borders: Re-Use of Smart Learning Objects in Advanced Content Access Systems (https://www.mdpi.com/1999-5903/11/7/160)",
+            "entityUrn": "urn:li:fsd_profileEducation:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,448811168)",
+            "fieldOfStudy": "Computer Science",
+            "grade": "3.92",
+            "multiLocaleDegreeName": {
+                "en_US": "Master's degree"
+            },
+            "multiLocaleDescription": {
+                "en_US": "− Courses: Theory of Algorithms, Data Analytics, Computational Social Science, Virtual Environment, Software Engineering, Information Storage and Retrieval, Microprocessor Programming,  Advanced Machine Learning, Statistics in Research.\n\n- Thesis: Disseminating Learning Tools Interoperability Standards https://vtechworks.lib.vt.edu/handle/10919/90772\n\nPapers:\n- Auto-grading Jupyter Notebooks (https://doi.org/10.1145/3328778.3366947)\n- Crossing the Borders: Re-Use of Smart Learning Objects in Advanced Content Access Systems (https://www.mdpi.com/1999-5903/11/7/160)"
+            },
+            "multiLocaleFieldOfStudy": {
+                "en_US": "Computer Science"
+            },
+            "multiLocaleGrade": {
+                "en_US": "3.92"
+            },
+            "multiLocaleSchoolName": {
+                "en_US": "Virginia Tech"
+            },
+            "profileTreasuryMediaEducation": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                "elements": [],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 10,
+                    "links": [],
+                    "start": 0,
+                    "total": 0
+                }
+            },
+            "school": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 26,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.organization.MiniSchool",
+                "active": true,
+                "entityUrn": "urn:li:fsd_school:19611",
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.organization.VectorImage",
+                        "artifacts": [
+                            {
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1519912733262?e=1639612800&v=beta&t=notlAEi8EkmLnXOP6-y0eXgxE67dvV-8F6lrd2zn2p8",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1519912733262?e=1639612800&v=beta&t=mrSF1ijX9ch-ByMQxm74AA0NAIFjETqPVsdMQ4w5ALE",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1519912733262?e=1639612800&v=beta&t=qMVPZqxK7GmOQz8GCuoa7gg7pUkdCbewX67ohVOUL3k",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQGEnHJ3Ojm1Jg/company-logo_"
+                    }
+                },
+                "name": "Virginia Tech",
+                "url": "https://www.linkedin.com/school/virginia-tech/"
+            },
+            "schoolName": "Virginia Tech",
+            "schoolUrn": "urn:li:fsd_school:19611"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducation",
+            "activities": "IEEE Robotics, Sports, NUST Adventure Club, NUST Entrepreneurship Society, Gamers Colosseum",
+            "dateRange": {
+                "end": {
+                    "year": 2013
+                },
+                "start": {
+                    "year": 2009
+                }
+            },
+            "degreeName": "Bachelor of Engineering (BEng)",
+            "description": "- Among top 3 students in class.\n- Performance based scholarship from 2nd to 8th semester for getting 3.5 above GPA.\n- Top Courses: Object Oriented Programming, Data Structures, Algorithms, Operating Systems, Database Design and Implementation\n\nFinal year project:\n- Design and Development of a Packet Processing Node for Core Mobile Networks\n- Paper: http://iacst.org/iacst/Conferences/icct2017/uploads/ICCT2017_107_The_Packet_Processing_Node_For_Core_Mobile_Networs.doc\n",
+            "entityUrn": "urn:li:fsd_profileEducation:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,176668455)",
+            "fieldOfStudy": "Information And Communication System Engineering",
+            "grade": "3.60",
+            "multiLocaleActivities": {
+                "en_US": "IEEE Robotics, Sports, NUST Adventure Club, NUST Entrepreneurship Society, Gamers Colosseum"
+            },
+            "multiLocaleDegreeName": {
+                "en_US": "Bachelor of Engineering (BEng)"
+            },
+            "multiLocaleDescription": {
+                "en_US": "- Among top 3 students in class.\n- Performance based scholarship from 2nd to 8th semester for getting 3.5 above GPA.\n- Top Courses: Object Oriented Programming, Data Structures, Algorithms, Operating Systems, Database Design and Implementation\n\nFinal year project:\n- Design and Development of a Packet Processing Node for Core Mobile Networks\n- Paper: http://iacst.org/iacst/Conferences/icct2017/uploads/ICCT2017_107_The_Packet_Processing_Node_For_Core_Mobile_Networs.doc\n"
+            },
+            "multiLocaleFieldOfStudy": {
+                "en_US": "Information And Communication System Engineering"
+            },
+            "multiLocaleGrade": {
+                "en_US": "3.60"
+            },
+            "multiLocaleSchoolName": {
+                "en_US": "National University of Science and Technology"
+            },
+            "profileTreasuryMediaEducation": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                "elements": [],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 10,
+                    "links": [],
+                    "start": 0,
+                    "total": 0
+                }
+            },
+            "school": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 26,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.organization.MiniSchool",
+                "active": true,
+                "entityUrn": "urn:li:fsd_school:15867",
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.organization.VectorImage",
+                        "artifacts": [
+                            {
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1519866055960?e=1639612800&v=beta&t=K8_tLJeg_f6qHHLAFNSPvkH8da7Y1-HJKLZWo0gJWM4",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1519866055960?e=1639612800&v=beta&t=l7HZyszD9S0g8RS_6k5h9Ex07jEbypFzYZKkKjURiCU",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1519866055960?e=1639612800&v=beta&t=Os-RQOprlvRCDLZnPCPT2zOwY64WwxFUuqL5sgzCZVU",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQHXHPTTz3hQNA/company-logo_"
+                    }
+                },
+                "name": "National University of Sciences and Technology (NUST)",
+                "url": "https://www.linkedin.com/school/nustofficial/"
+            },
+            "schoolName": "National University of Science and Technology",
+            "schoolUrn": "urn:li:fsd_school:15867"
+        }
+    ],
+    "profileHonors": [
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonor",
+            "entityUrn": "urn:li:fsd_profileHonor:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,58)",
+            "issuedOn": {
+                "month": 10,
+                "year": 2013
+            },
+            "issuer": "Webpreneur Academy",
+            "multiLocaleIssuer": {
+                "en_US": "Webpreneur Academy"
+            },
+            "multiLocaleTitle": {
+                "en_US": "Masters of Business Creation"
+            },
+            "title": "Masters of Business Creation"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonor",
+            "description": "- Two times Won Speed programming competition held at IQRA University in 2011 and also in 2012",
+            "entityUrn": "urn:li:fsd_profileHonor:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,24)",
+            "issuedOn": {
+                "month": 11,
+                "year": 2012
+            },
+            "issuer": "Iqra University",
+            "multiLocaleDescription": {
+                "en_US": "- Two times Won Speed programming competition held at IQRA University in 2011 and also in 2012"
+            },
+            "multiLocaleIssuer": {
+                "en_US": "Iqra University"
+            },
+            "multiLocaleTitle": {
+                "en_US": "Winner Speed Programming Competition"
+            },
+            "occupationUnion": {
+                "profileEducation": "urn:li:fsd_profileEducation:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,176668455)"
+            },
+            "title": "Winner Speed Programming Competition"
+        }
+    ],
+    "profileLanguages": [
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguage",
+            "entityUrn": "urn:li:fsd_profileLanguage:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,15)",
+            "multiLocaleName": {
+                "en_US": "English"
+            },
+            "name": "English",
+            "proficiency": "FULL_PROFESSIONAL"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguage",
+            "entityUrn": "urn:li:fsd_profileLanguage:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,49)",
+            "multiLocaleName": {
+                "en_US": "Punjabi"
+            },
+            "name": "Punjabi",
+            "proficiency": "LIMITED_WORKING"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguage",
+            "entityUrn": "urn:li:fsd_profileLanguage:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,48)",
+            "multiLocaleName": {
+                "en_US": "Urdu"
+            },
+            "name": "Urdu",
+            "proficiency": "NATIVE_OR_BILINGUAL"
+        }
+    ],
+    "profileOrganizations": [],
+    "profilePatents": [],
+    "profilePicture": "800_800/0/1575849623710?e=1637193600&v=beta&t=nMBXQiuA-WhwkQ0cnO0l6RU32LyUNhWG_lHpN0DltSI",
+    "profilePictureRootUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQErvdkiStM7IA/profile-displayphoto-shrink_",
+    "profilePositionGroups": [
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "employeeCountRange": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                    "start": 10001
+                },
+                "entityUrn": "urn:li:fsd_company:10667",
+                "industry": {
+                    "urn:li:fsd_industry:6": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:6",
+                        "name": "Internet"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:6"
+                ],
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1621582241755?e=1639612800&v=beta&t=m64Nccoj3KCYLLozd9aaYXkFOLKVtFHE1NUHsrNpMvA",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1621582241755?e=1639612800&v=beta&t=ScLcg8QOyfLWcmznBWt1cU0teA_Dyboy7wQhMOT19BM",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1621582241755?e=1639612800&v=beta&t=KTD3DYLHUY8Yv0hr9k72hKWs-BVbQ6e6w3aBOHO7rBU",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQGrV5i4K9YdhQ/company-logo_"
+                    }
+                },
+                "name": "Facebook",
+                "universalName": "facebook",
+                "url": "https://www.linkedin.com/company/facebook/"
+            },
+            "companyName": "Facebook",
+            "companyUrn": "urn:li:fsd_company:10667",
+            "dateRange": {
+                "start": {
+                    "month": 6,
+                    "year": 2019
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,012d4cc6d114491e648c65dc48061b0c20b35ad2)",
+            "multiLocaleCompanyName": {
+                "en_US": "Facebook"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "start": 10001
+                            },
+                            "entityUrn": "urn:li:fsd_company:10667",
+                            "industry": {
+                                "urn:li:fsd_industry:6": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:6",
+                                    "name": "Internet"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:6"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1621582241755?e=1639612800&v=beta&t=m64Nccoj3KCYLLozd9aaYXkFOLKVtFHE1NUHsrNpMvA",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1621582241755?e=1639612800&v=beta&t=ScLcg8QOyfLWcmznBWt1cU0teA_Dyboy7wQhMOT19BM",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1621582241755?e=1639612800&v=beta&t=KTD3DYLHUY8Yv0hr9k72hKWs-BVbQ6e6w3aBOHO7rBU",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQGrV5i4K9YdhQ/company-logo_"
+                                }
+                            },
+                            "name": "Facebook",
+                            "universalName": "facebook",
+                            "url": "https://www.linkedin.com/company/facebook/"
+                        },
+                        "companyName": "Facebook",
+                        "companyUrn": "urn:li:fsd_company:10667",
+                        "dateRange": {
+                            "start": {
+                                "month": 6,
+                                "year": 2019
+                            }
+                        },
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1476828949)",
+                        "geoLocationName": "Greater Seattle Area",
+                        "geoUrn": "urn:li:fsd_geo:90000091",
+                        "locationName": "Greater Seattle Area",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Facebook"
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Greater Seattle Area"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Greater Seattle Area"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Software Engineer"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "regionUrn": "urn:li:fsd_region:(us,91)",
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Software Engineer"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "employeeCountRange": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                    "end": 10,
+                    "start": 2
+                },
+                "entityUrn": "urn:li:fsd_company:6637055",
+                "industry": {
+                    "urn:li:fsd_industry:96": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:96",
+                        "name": "Information Technology & Services"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:96"
+                ],
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1519870307683?e=1639612800&v=beta&t=dTJdaPO23UYMNRwrJh7RqHL50Bo-nQ2eaXhptafciyM",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1519870307683?e=1639612800&v=beta&t=cSlYWTcQl0JCcsyaLI9qGlAIIBvRtsJwET2q5FE7Dzw",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1519870307683?e=1639612800&v=beta&t=xdMQRzd0QJjwwkAoh31Pm45j5pvpVOnGtn2x1A6r_Vk",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQHxtqazLL9ryw/company-logo_"
+                    }
+                },
+                "name": "Radiations3.com",
+                "universalName": "radiations3-com",
+                "url": "https://www.linkedin.com/company/radiations3-com/"
+            },
+            "companyName": "Radiations3.com",
+            "companyUrn": "urn:li:fsd_company:6637055",
+            "dateRange": {
+                "start": {
+                    "month": 4,
+                    "year": 2011
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,f8415e56603d3fb794553e9e9bb2b1d50bf8a8be)",
+            "multiLocaleCompanyName": {
+                "en_US": "Radiations3.com"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "end": 10,
+                                "start": 2
+                            },
+                            "entityUrn": "urn:li:fsd_company:6637055",
+                            "industry": {
+                                "urn:li:fsd_industry:96": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:96",
+                                    "name": "Information Technology & Services"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:96"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1519870307683?e=1639612800&v=beta&t=dTJdaPO23UYMNRwrJh7RqHL50Bo-nQ2eaXhptafciyM",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1519870307683?e=1639612800&v=beta&t=cSlYWTcQl0JCcsyaLI9qGlAIIBvRtsJwET2q5FE7Dzw",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1519870307683?e=1639612800&v=beta&t=xdMQRzd0QJjwwkAoh31Pm45j5pvpVOnGtn2x1A6r_Vk",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQHxtqazLL9ryw/company-logo_"
+                                }
+                            },
+                            "name": "Radiations3.com",
+                            "universalName": "radiations3-com",
+                            "url": "https://www.linkedin.com/company/radiations3-com/"
+                        },
+                        "companyName": "Radiations3.com",
+                        "companyUrn": "urn:li:fsd_company:6637055",
+                        "dateRange": {
+                            "start": {
+                                "month": 4,
+                                "year": 2011
+                            }
+                        },
+                        "description": "Web and Mobile application development services based startup. Started in my room with my partner and now we have 10 employees working from their homes.",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,904659389)",
+                        "geoLocationName": "Islamabad",
+                        "locationName": "Islamabad",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Radiations3.com"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "Web and Mobile application development services based startup. Started in my room with my partner and now we have 10 employees working from their homes."
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Islamabad"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Islamabad"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Founder & CEO"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Founder & CEO"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "employeeCountRange": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                    "end": 10000,
+                    "start": 5001
+                },
+                "entityUrn": "urn:li:fsd_company:166811",
+                "industry": {
+                    "urn:li:fsd_industry:68": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:68",
+                        "name": "Higher Education"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:68"
+                ],
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1519912733262?e=1639612800&v=beta&t=notlAEi8EkmLnXOP6-y0eXgxE67dvV-8F6lrd2zn2p8",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1519912733262?e=1639612800&v=beta&t=mrSF1ijX9ch-ByMQxm74AA0NAIFjETqPVsdMQ4w5ALE",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1519912733262?e=1639612800&v=beta&t=qMVPZqxK7GmOQz8GCuoa7gg7pUkdCbewX67ohVOUL3k",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQGEnHJ3Ojm1Jg/company-logo_"
+                    }
+                },
+                "name": "Virginia Tech",
+                "universalName": "virginia-tech",
+                "url": "https://www.linkedin.com/school/virginia-tech/"
+            },
+            "companyName": "Virginia Tech",
+            "companyUrn": "urn:li:fsd_company:166811",
+            "dateRange": {
+                "end": {
+                    "month": 5,
+                    "year": 2019
+                },
+                "start": {
+                    "month": 8,
+                    "year": 2017
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,89691fe41a08a5ce7bd2c562e909e59172f67d98)",
+            "multiLocaleCompanyName": {
+                "en_US": "Virginia Tech"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "end": 10000,
+                                "start": 5001
+                            },
+                            "entityUrn": "urn:li:fsd_company:166811",
+                            "industry": {
+                                "urn:li:fsd_industry:68": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:68",
+                                    "name": "Higher Education"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:68"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1519912733262?e=1639612800&v=beta&t=notlAEi8EkmLnXOP6-y0eXgxE67dvV-8F6lrd2zn2p8",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1519912733262?e=1639612800&v=beta&t=mrSF1ijX9ch-ByMQxm74AA0NAIFjETqPVsdMQ4w5ALE",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1519912733262?e=1639612800&v=beta&t=qMVPZqxK7GmOQz8GCuoa7gg7pUkdCbewX67ohVOUL3k",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQGEnHJ3Ojm1Jg/company-logo_"
+                                }
+                            },
+                            "name": "Virginia Tech",
+                            "universalName": "virginia-tech",
+                            "url": "https://www.linkedin.com/school/virginia-tech/"
+                        },
+                        "companyName": "Virginia Tech",
+                        "companyUrn": "urn:li:fsd_company:166811",
+                        "dateRange": {
+                            "end": {
+                                "month": 5,
+                                "year": 2019
+                            },
+                            "start": {
+                                "month": 5,
+                                "year": 2019
+                            }
+                        },
+                        "description": "Research Assistant in the School of Education for a small text mining project.",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1467103227)",
+                        "geoLocationName": "Blacksburg, VA",
+                        "locationName": "Blacksburg, VA",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Virginia Tech"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "Research Assistant in the School of Education for a small text mining project."
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Blacksburg, VA"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Blacksburg, VA"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Graduate Assistant"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Graduate Assistant"
+                    },
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "end": 10000,
+                                "start": 5001
+                            },
+                            "entityUrn": "urn:li:fsd_company:166811",
+                            "industry": {
+                                "urn:li:fsd_industry:68": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:68",
+                                    "name": "Higher Education"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:68"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1519912733262?e=1639612800&v=beta&t=notlAEi8EkmLnXOP6-y0eXgxE67dvV-8F6lrd2zn2p8",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1519912733262?e=1639612800&v=beta&t=mrSF1ijX9ch-ByMQxm74AA0NAIFjETqPVsdMQ4w5ALE",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1519912733262?e=1639612800&v=beta&t=qMVPZqxK7GmOQz8GCuoa7gg7pUkdCbewX67ohVOUL3k",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQGEnHJ3Ojm1Jg/company-logo_"
+                                }
+                            },
+                            "name": "Virginia Tech",
+                            "universalName": "virginia-tech",
+                            "url": "https://www.linkedin.com/school/virginia-tech/"
+                        },
+                        "companyName": "Virginia Tech",
+                        "companyUrn": "urn:li:fsd_company:166811",
+                        "dateRange": {
+                            "end": {
+                                "month": 5,
+                                "year": 2019
+                            },
+                            "start": {
+                                "month": 8,
+                                "year": 2018
+                            }
+                        },
+                        "description": "−\tDeveloped use cases of LTI.\n−\tAdded support of auto-grading of Jupyter Notebooks in Web-CAT and submissions of scores to Canvas.\n- Integrated ACOS content (Python animation and exercises by Aalto University) in OpenDSA (an eTextbook project developed at Virginia Tech).\n\n−\tLanguages: Python, JavaScript, SQL, Ruby.",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1467104176)",
+                        "geoLocationName": "Blacksburg, VA",
+                        "locationName": "Blacksburg, VA",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Virginia Tech"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "−\tDeveloped use cases of LTI.\n−\tAdded support of auto-grading of Jupyter Notebooks in Web-CAT and submissions of scores to Canvas.\n- Integrated ACOS content (Python animation and exercises by Aalto University) in OpenDSA (an eTextbook project developed at Virginia Tech).\n\n−\tLanguages: Python, JavaScript, SQL, Ruby."
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Blacksburg, VA"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Blacksburg, VA"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Graduate Research Assistant"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Graduate Research Assistant"
+                    },
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "end": 10000,
+                                "start": 5001
+                            },
+                            "entityUrn": "urn:li:fsd_company:166811",
+                            "industry": {
+                                "urn:li:fsd_industry:68": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:68",
+                                    "name": "Higher Education"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:68"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1519912733262?e=1639612800&v=beta&t=notlAEi8EkmLnXOP6-y0eXgxE67dvV-8F6lrd2zn2p8",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1519912733262?e=1639612800&v=beta&t=mrSF1ijX9ch-ByMQxm74AA0NAIFjETqPVsdMQ4w5ALE",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1519912733262?e=1639612800&v=beta&t=qMVPZqxK7GmOQz8GCuoa7gg7pUkdCbewX67ohVOUL3k",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C510BAQGEnHJ3Ojm1Jg/company-logo_"
+                                }
+                            },
+                            "name": "Virginia Tech",
+                            "universalName": "virginia-tech",
+                            "url": "https://www.linkedin.com/school/virginia-tech/"
+                        },
+                        "companyName": "Virginia Tech",
+                        "companyUrn": "urn:li:fsd_company:166811",
+                        "dateRange": {
+                            "end": {
+                                "month": 8,
+                                "year": 2018
+                            },
+                            "start": {
+                                "month": 8,
+                                "year": 2017
+                            }
+                        },
+                        "description": "−\tWorking on a platform that presents solutions for integrating LTI in educational applications.\n−\tResearching on a system to collect and analyze students’ learning data from various systems to analyze how their learning is affected by different learning tools.\n\n−\tLanguages: Ruby, Python, JavaScript, CSS.",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1065323230)",
+                        "geoLocationName": "Blacksburg, VA",
+                        "locationName": "Blacksburg, VA",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Virginia Tech"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "−\tWorking on a platform that presents solutions for integrating LTI in educational applications.\n−\tResearching on a system to collect and analyze students’ learning data from various systems to analyze how their learning is affected by different learning tools.\n\n−\tLanguages: Ruby, Python, JavaScript, CSS."
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Blacksburg, VA"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Blacksburg, VA"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Graduate Research Assistant"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Graduate Research Assistant"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 3
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "employeeCountRange": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                    "start": 10001
+                },
+                "entityUrn": "urn:li:fsd_company:10667",
+                "industry": {
+                    "urn:li:fsd_industry:6": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:6",
+                        "name": "Internet"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:6"
+                ],
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1621582241755?e=1639612800&v=beta&t=m64Nccoj3KCYLLozd9aaYXkFOLKVtFHE1NUHsrNpMvA",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1621582241755?e=1639612800&v=beta&t=ScLcg8QOyfLWcmznBWt1cU0teA_Dyboy7wQhMOT19BM",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1621582241755?e=1639612800&v=beta&t=KTD3DYLHUY8Yv0hr9k72hKWs-BVbQ6e6w3aBOHO7rBU",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQGrV5i4K9YdhQ/company-logo_"
+                    }
+                },
+                "name": "Facebook",
+                "universalName": "facebook",
+                "url": "https://www.linkedin.com/company/facebook/"
+            },
+            "companyName": "Facebook",
+            "companyUrn": "urn:li:fsd_company:10667",
+            "dateRange": {
+                "end": {
+                    "month": 8,
+                    "year": 2018
+                },
+                "start": {
+                    "month": 5,
+                    "year": 2018
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,2031eabca3a7d61811ada46e5e20c89a4a095f69)",
+            "multiLocaleCompanyName": {
+                "en_US": "Facebook"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "start": 10001
+                            },
+                            "entityUrn": "urn:li:fsd_company:10667",
+                            "industry": {
+                                "urn:li:fsd_industry:6": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:6",
+                                    "name": "Internet"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:6"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1621582241755?e=1639612800&v=beta&t=m64Nccoj3KCYLLozd9aaYXkFOLKVtFHE1NUHsrNpMvA",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1621582241755?e=1639612800&v=beta&t=ScLcg8QOyfLWcmznBWt1cU0teA_Dyboy7wQhMOT19BM",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1621582241755?e=1639612800&v=beta&t=KTD3DYLHUY8Yv0hr9k72hKWs-BVbQ6e6w3aBOHO7rBU",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQGrV5i4K9YdhQ/company-logo_"
+                                }
+                            },
+                            "name": "Facebook",
+                            "universalName": "facebook",
+                            "url": "https://www.linkedin.com/company/facebook/"
+                        },
+                        "companyName": "Facebook",
+                        "companyUrn": "urn:li:fsd_company:10667",
+                        "dateRange": {
+                            "end": {
+                                "month": 8,
+                                "year": 2018
+                            },
+                            "start": {
+                                "month": 5,
+                                "year": 2018
+                            }
+                        },
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1315841235)",
+                        "geoLocationName": "San Francisco Bay Area",
+                        "geoUrn": "urn:li:fsd_geo:90000084",
+                        "locationName": "San Francisco Bay Area",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Facebook"
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "San Francisco Bay Area"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "San Francisco Bay Area"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Software Engineer Intern"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "regionUrn": "urn:li:fsd_region:(us,84)",
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Software Engineer Intern"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "employeeCountRange": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                    "end": 5000,
+                    "start": 1001
+                },
+                "entityUrn": "urn:li:fsd_company:10378992",
+                "industry": {
+                    "urn:li:fsd_industry:4": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:4",
+                        "name": "Computer Software"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:4"
+                ],
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1625127831054?e=1639612800&v=beta&t=ITYkcUs9TfFQvNmhQQ0cgyrNRwk_neOb2GQs3AhRYwY",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1625127831054?e=1639612800&v=beta&t=Y6GZ7edkA3NiiNGJmz3YqWzmyRNYF2mFqa0QeSKuPe8",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1625127831054?e=1639612800&v=beta&t=DDuohOzTHXkvb7ygg6m-9flQpJDmKCe3XqxtPFAyHWQ",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQEeV8pdELLePQ/company-logo_"
+                    }
+                },
+                "name": "Afiniti",
+                "universalName": "afiniti-com",
+                "url": "https://www.linkedin.com/company/afiniti-com/"
+            },
+            "companyName": "Afiniti.com",
+            "companyUrn": "urn:li:fsd_company:10378992",
+            "dateRange": {
+                "end": {
+                    "month": 7,
+                    "year": 2017
+                },
+                "start": {
+                    "month": 1,
+                    "year": 2016
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,c1d2bf525a9527a5aed45173eae8713c7f856dd4)",
+            "multiLocaleCompanyName": {
+                "en_US": "Afiniti.com"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "end": 5000,
+                                "start": 1001
+                            },
+                            "entityUrn": "urn:li:fsd_company:10378992",
+                            "industry": {
+                                "urn:li:fsd_industry:4": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:4",
+                                    "name": "Computer Software"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:4"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1625127831054?e=1639612800&v=beta&t=ITYkcUs9TfFQvNmhQQ0cgyrNRwk_neOb2GQs3AhRYwY",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1625127831054?e=1639612800&v=beta&t=Y6GZ7edkA3NiiNGJmz3YqWzmyRNYF2mFqa0QeSKuPe8",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1625127831054?e=1639612800&v=beta&t=DDuohOzTHXkvb7ygg6m-9flQpJDmKCe3XqxtPFAyHWQ",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQEeV8pdELLePQ/company-logo_"
+                                }
+                            },
+                            "name": "Afiniti",
+                            "universalName": "afiniti-com",
+                            "url": "https://www.linkedin.com/company/afiniti-com/"
+                        },
+                        "companyName": "Afiniti.com",
+                        "companyUrn": "urn:li:fsd_company:10378992",
+                        "dateRange": {
+                            "end": {
+                                "month": 7,
+                                "year": 2017
+                            },
+                            "start": {
+                                "month": 1,
+                                "year": 2016
+                            }
+                        },
+                        "description": "−\tWorked on the development of their core AI tool named Wilson in C++ 14.\n−\tCreated statistical models of Call Center behaviors using advanced Machine Learning concepts leading to over 5% lift in corresponding optimization metrics.\n−\tIdentified the patterns in interaction between agents and callers that drive profitable outcomes based on agent and caller personality traits.\n−\tAI Manager on the biggest of Afiniti’s clients, T-Mobile.\n−\tResearched on ways to integrate Stan into AI models to enhance the level of complexity of AI models.\n−\tCreated unique modeling strategies for a diverse number of business queues, like Telesales, up-sell/down-sell, credits and adjustments, handle time, call resolution, customer satisfaction scores, retention, and payment collections.\n−\tWon best all-rounder of the year 2016.\n\n−\tLanguages: R, C#, C++, JavaScript, SQL, MySQL",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,761438502)",
+                        "geoLocationName": "Islamabad",
+                        "locationName": "Islamabad",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Afiniti.com"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "−\tWorked on the development of their core AI tool named Wilson in C++ 14.\n−\tCreated statistical models of Call Center behaviors using advanced Machine Learning concepts leading to over 5% lift in corresponding optimization metrics.\n−\tIdentified the patterns in interaction between agents and callers that drive profitable outcomes based on agent and caller personality traits.\n−\tAI Manager on the biggest of Afiniti’s clients, T-Mobile.\n−\tResearched on ways to integrate Stan into AI models to enhance the level of complexity of AI models.\n−\tCreated unique modeling strategies for a diverse number of business queues, like Telesales, up-sell/down-sell, credits and adjustments, handle time, call resolution, customer satisfaction scores, retention, and payment collections.\n−\tWon best all-rounder of the year 2016.\n\n−\tLanguages: R, C#, C++, JavaScript, SQL, MySQL"
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Islamabad"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Islamabad"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Algorithm Engineer in Artificial Intelligence "
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Algorithm Engineer in Artificial Intelligence "
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "entityUrn": "urn:li:fsd_company:19767549",
+                "industry": {
+                    "urn:li:fsd_industry:69": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:69",
+                        "name": "Education Management"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:69"
+                ],
+                "name": "KARISLEARN LTD",
+                "universalName": "karislearn-ltd",
+                "url": "https://www.linkedin.com/company/karislearn-ltd/"
+            },
+            "companyName": "KARISLEARN LTD",
+            "companyUrn": "urn:li:fsd_company:19767549",
+            "dateRange": {
+                "end": {
+                    "month": 7,
+                    "year": 2017
+                },
+                "start": {
+                    "month": 7,
+                    "year": 2014
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,facdd43c1f2ca107e028295694f220b00e39ce09)",
+            "multiLocaleCompanyName": {
+                "en_US": "KARISLEARN LTD"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "entityUrn": "urn:li:fsd_company:19767549",
+                            "industry": {
+                                "urn:li:fsd_industry:69": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:69",
+                                    "name": "Education Management"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:69"
+                            ],
+                            "name": "KARISLEARN LTD",
+                            "universalName": "karislearn-ltd",
+                            "url": "https://www.linkedin.com/company/karislearn-ltd/"
+                        },
+                        "companyName": "KARISLEARN LTD",
+                        "companyUrn": "urn:li:fsd_company:19767549",
+                        "dateRange": {
+                            "end": {
+                                "month": 7,
+                                "year": 2017
+                            },
+                            "start": {
+                                "month": 7,
+                                "year": 2014
+                            }
+                        },
+                        "description": "- Designed and developed algorithms to improve learning through apps for rural areas of developing world, primarily Pakistan.\n- Developed android applications of KarisMath and KarisEnglish.\n- Designed a multi-level encryption algorithm using AES and SHA-256 along with an android player that plays encrypted videos. The patent of this algorithm is being filed by KarisLearn.",
+                        "employmentType": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                            "companyNameRequired": true,
+                            "entityUrn": "urn:li:fsd_employmentType:11",
+                            "name": "Part-time"
+                        },
+                        "employmentTypeUrn": "urn:li:fsd_employmentType:11",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1551232976)",
+                        "geoLocationName": "Islamabad, Pakistan",
+                        "locationName": "Islamabad, Pakistan",
+                        "multiLocaleCompanyName": {
+                            "en_US": "KARISLEARN LTD"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "- Designed and developed algorithms to improve learning through apps for rural areas of developing world, primarily Pakistan.\n- Developed android applications of KarisMath and KarisEnglish.\n- Designed a multi-level encryption algorithm using AES and SHA-256 along with an android player that plays encrypted videos. The patent of this algorithm is being filed by KarisLearn."
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Islamabad, Pakistan"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Islamabad, Pakistan"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Lead Developer and Technology Consultant"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Lead Developer and Technology Consultant"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyName": "NERS",
+            "dateRange": {
+                "end": {
+                    "month": 5,
+                    "year": 2016
+                },
+                "start": {
+                    "month": 9,
+                    "year": 2015
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,a7c9106b7fb04ea677ffa08d94c5b473bd0c21e8)",
+            "multiLocaleCompanyName": {
+                "en_US": "NERS"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "companyName": "NERS",
+                        "dateRange": {
+                            "end": {
+                                "month": 5,
+                                "year": 2016
+                            },
+                            "start": {
+                                "month": 9,
+                                "year": 2015
+                            }
+                        },
+                        "description": "NFC based employee roster system",
+                        "employmentType": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                            "companyNameRequired": false,
+                            "entityUrn": "urn:li:fsd_employmentType:3",
+                            "name": "Self-employed"
+                        },
+                        "employmentTypeUrn": "urn:li:fsd_employmentType:3",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1551235518)",
+                        "geoLocationName": "Islamabad, Pakistan",
+                        "locationName": "Islamabad, Pakistan",
+                        "multiLocaleCompanyName": {
+                            "en_US": "NERS"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "NFC based employee roster system"
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Islamabad, Pakistan"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Islamabad, Pakistan"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Founder"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Founder"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "employeeCountRange": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                    "end": 50,
+                    "start": 11
+                },
+                "entityUrn": "urn:li:fsd_company:3565419",
+                "industry": {
+                    "urn:li:fsd_industry:132": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:132",
+                        "name": "E-learning"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:132"
+                ],
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1519867219270?e=1639612800&v=beta&t=yyS47oNWiuN-7TivQGQW_Cx0QBxB1K7EDP4dUmBMIq8",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1519867219270?e=1639612800&v=beta&t=5pSN9pVkEsgV1nHA7wDiFLyn4dzL4Bc5ERAsBsQWnt0",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1519867219270?e=1639612800&v=beta&t=JxV0gYZrJlSQyMkXZoT3BsyRroLmR__HOT1X9lXSKvo",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQEOtq23hoZCOQ/company-logo_"
+                    }
+                },
+                "name": "World Academy.tv",
+                "universalName": "world-academy-tv",
+                "url": "https://www.linkedin.com/company/world-academy-tv/"
+            },
+            "companyName": "World Academy.tv",
+            "companyUrn": "urn:li:fsd_company:3565419",
+            "dateRange": {
+                "end": {
+                    "month": 12,
+                    "year": 2015
+                },
+                "start": {
+                    "month": 6,
+                    "year": 2013
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,5cb50a9e5395ea82d706a47f94512cbe7231b9ad)",
+            "multiLocaleCompanyName": {
+                "en_US": "World Academy.tv"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "end": 50,
+                                "start": 11
+                            },
+                            "entityUrn": "urn:li:fsd_company:3565419",
+                            "industry": {
+                                "urn:li:fsd_industry:132": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:132",
+                                    "name": "E-learning"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:132"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1519867219270?e=1639612800&v=beta&t=yyS47oNWiuN-7TivQGQW_Cx0QBxB1K7EDP4dUmBMIq8",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1519867219270?e=1639612800&v=beta&t=5pSN9pVkEsgV1nHA7wDiFLyn4dzL4Bc5ERAsBsQWnt0",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1519867219270?e=1639612800&v=beta&t=JxV0gYZrJlSQyMkXZoT3BsyRroLmR__HOT1X9lXSKvo",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQEOtq23hoZCOQ/company-logo_"
+                                }
+                            },
+                            "name": "World Academy.tv",
+                            "universalName": "world-academy-tv",
+                            "url": "https://www.linkedin.com/company/world-academy-tv/"
+                        },
+                        "companyName": "World Academy.tv",
+                        "companyUrn": "urn:li:fsd_company:3565419",
+                        "dateRange": {
+                            "end": {
+                                "month": 12,
+                                "year": 2015
+                            },
+                            "start": {
+                                "month": 6,
+                                "year": 2013
+                            }
+                        },
+                        "description": "−\tFull stack LAMP development of platforms from UI/UX through to the MySQL databases and including device responsive presentation layers.\n−\tLed the team to winning the most prestigious incubation in Australia offered by ANZ - Innovyz.\n\n−\tLanguages: PHP, HTML, JavaScript, CSS, MySQL",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,437467345)",
+                        "multiLocaleCompanyName": {
+                            "en_US": "World Academy.tv"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "−\tFull stack LAMP development of platforms from UI/UX through to the MySQL databases and including device responsive presentation layers.\n−\tLed the team to winning the most prestigious incubation in Australia offered by ANZ - Innovyz.\n\n−\tLanguages: PHP, HTML, JavaScript, CSS, MySQL"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Tech Team Lead"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Tech Team Lead"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "company": {
+                "$anti_abuse_annotations": [
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 39,
+                        "entityId": 7
+                    },
+                    {
+                        "attributeId": 48,
+                        "entityId": 7
+                    }
+                ],
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                "employeeCountRange": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                    "end": 200,
+                    "start": 51
+                },
+                "entityUrn": "urn:li:fsd_company:10077",
+                "industry": {
+                    "urn:li:fsd_industry:6": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fsd_industry:6",
+                        "name": "Internet"
+                    }
+                },
+                "industryUrns": [
+                    "urn:li:fsd_industry:6"
+                ],
+                "logo": {
+                    "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                        "artifacts": [
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "200_200/0/1519856236154?e=1639612800&v=beta&t=9ZnBCdThdz5gxbSwNH3tNDkrake8CSl2seCqZT5Kq_I",
+                                "height": 200,
+                                "width": 200
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "100_100/0/1519856236154?e=1639612800&v=beta&t=pktheRg4BxCUy1dn8olrLYrxqj7r3by-DT_BRY1EhHU",
+                                "height": 100,
+                                "width": 100
+                            },
+                            {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                "expiresAt": 1639612800000,
+                                "fileIdentifyingUrlPathSegment": "400_400/0/1519856236154?e=1639612800&v=beta&t=vVeogLK7QUhWk8BusEEsjWlIWGV6XQ6ICwZabcY1TFE",
+                                "height": 400,
+                                "width": 400
+                            }
+                        ],
+                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C4D0BAQFs8V-A8crsBg/company-logo_"
+                    }
+                },
+                "name": "Elance",
+                "universalName": "elance",
+                "url": "https://www.linkedin.com/company/elance/"
+            },
+            "companyName": "Elance",
+            "companyUrn": "urn:li:fsd_company:10077",
+            "dateRange": {
+                "end": {
+                    "month": 12,
+                    "year": 2015
+                },
+                "start": {
+                    "month": 10,
+                    "year": 2011
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,e72b319b4fa5050f2aa17dcc2fbb6fac3de271ae)",
+            "multiLocaleCompanyName": {
+                "en_US": "Elance"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "company": {
+                            "$anti_abuse_annotations": [
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 39,
+                                    "entityId": 7
+                                },
+                                {
+                                    "attributeId": 48,
+                                    "entityId": 7
+                                }
+                            ],
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                            "employeeCountRange": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange",
+                                "end": 200,
+                                "start": 51
+                            },
+                            "entityUrn": "urn:li:fsd_company:10077",
+                            "industry": {
+                                "urn:li:fsd_industry:6": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                                    "entityUrn": "urn:li:fsd_industry:6",
+                                    "name": "Internet"
+                                }
+                            },
+                            "industryUrns": [
+                                "urn:li:fsd_industry:6"
+                            ],
+                            "logo": {
+                                "vectorImage": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.linkablepositioncompany.Anon0",
+                                    "artifacts": [
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "200_200/0/1519856236154?e=1639612800&v=beta&t=9ZnBCdThdz5gxbSwNH3tNDkrake8CSl2seCqZT5Kq_I",
+                                            "height": 200,
+                                            "width": 200
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "100_100/0/1519856236154?e=1639612800&v=beta&t=pktheRg4BxCUy1dn8olrLYrxqj7r3by-DT_BRY1EhHU",
+                                            "height": 100,
+                                            "width": 100
+                                        },
+                                        {
+                                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.VectorArtifact",
+                                            "expiresAt": 1639612800000,
+                                            "fileIdentifyingUrlPathSegment": "400_400/0/1519856236154?e=1639612800&v=beta&t=vVeogLK7QUhWk8BusEEsjWlIWGV6XQ6ICwZabcY1TFE",
+                                            "height": 400,
+                                            "width": 400
+                                        }
+                                    ],
+                                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C4D0BAQFs8V-A8crsBg/company-logo_"
+                                }
+                            },
+                            "name": "Elance",
+                            "universalName": "elance",
+                            "url": "https://www.linkedin.com/company/elance/"
+                        },
+                        "companyName": "Elance",
+                        "companyUrn": "urn:li:fsd_company:10077",
+                        "dateRange": {
+                            "end": {
+                                "month": 12,
+                                "year": 2015
+                            },
+                            "start": {
+                                "month": 10,
+                                "year": 2011
+                            }
+                        },
+                        "description": "−\tDeveloped Khmer language radio application, which has around 500,000 users.\n−\tDeveloped one of the most advanced music sites ever for a startup named Zero Universal.\n\n−\tLanguages: Java, C#, PHP, HTML, JavaScript, CSS",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,437471638)",
+                        "multiLocaleCompanyName": {
+                            "en_US": "Elance"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "−\tDeveloped Khmer language radio application, which has around 500,000 users.\n−\tDeveloped one of the most advanced music sites ever for a startup named Zero Universal.\n\n−\tLanguages: Java, C#, PHP, HTML, JavaScript, CSS"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Freelance Mobile and Web Developer"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Freelance Mobile and Web Developer"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyName": "CryptoCards",
+            "dateRange": {
+                "end": {
+                    "month": 6,
+                    "year": 2015
+                },
+                "start": {
+                    "month": 2,
+                    "year": 2014
+                }
+            },
+            "entityUrn": "urn:li:fsd_profilePositionGroup:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,97445cfa546c9bcce0623f2e5575a6b84179fb04)",
+            "multiLocaleCompanyName": {
+                "en_US": "CryptoCards"
+            },
+            "profilePositionInPositionGroup": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+                "elements": [
+                    {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                        "companyName": "CryptoCards",
+                        "dateRange": {
+                            "end": {
+                                "month": 6,
+                                "year": 2015
+                            },
+                            "start": {
+                                "month": 2,
+                                "year": 2014
+                            }
+                        },
+                        "description": "Gift cards -> Crypto currency\nDeveloped a system that supported creation of blockchain wallets and developed an algorithm to purchase real-time crypto currencies.",
+                        "employmentType": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                            "companyNameRequired": false,
+                            "entityUrn": "urn:li:fsd_employmentType:3",
+                            "name": "Self-employed"
+                        },
+                        "employmentTypeUrn": "urn:li:fsd_employmentType:3",
+                        "entityUrn": "urn:li:fsd_profilePosition:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1551232877)",
+                        "geoLocationName": "Islamabad, Pakistan",
+                        "locationName": "Islamabad, Pakistan",
+                        "multiLocaleCompanyName": {
+                            "en_US": "CryptoCards"
+                        },
+                        "multiLocaleDescription": {
+                            "en_US": "Gift cards -> Crypto currency\nDeveloped a system that supported creation of blockchain wallets and developed an algorithm to purchase real-time crypto currencies."
+                        },
+                        "multiLocaleGeoLocationName": {
+                            "en_US": "Islamabad, Pakistan"
+                        },
+                        "multiLocaleLocationName": {
+                            "en_US": "Islamabad, Pakistan"
+                        },
+                        "multiLocaleTitle": {
+                            "en_US": "Co-Founder"
+                        },
+                        "profileTreasuryMediaPosition": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                            "elements": [],
+                            "paging": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                                "count": 10,
+                                "links": [],
+                                "start": 0,
+                                "total": 0
+                            }
+                        },
+                        "shouldShowSourceOfHireBadge": false,
+                        "title": "Co-Founder"
+                    }
+                ],
+                "paging": {
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging",
+                    "count": 20,
+                    "links": [],
+                    "start": 0,
+                    "total": 1
+                }
+            }
+        }
+    ],
+    "profileProjects": [],
+    "profilePublications": [
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePublication",
+            "authors": [
+                {
+                    "standardizedContributor": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                        "profile": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                            "entityUrn": "urn:li:fsd_profile:ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE",
+                            "firstName": "Hamza",
+                            "headline": "Software Engineer at Facebook",
+                            "lastName": "M.",
+                            "profilePicture": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.OriginalAndDisplayImage",
+                                "displayImageReference": {
+                                    "vectorImage": {
+                                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.originalanddisplayimage.Anon1",
+                                        "artifacts": [
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "100_100/0/1575849623710?e=1637193600&v=beta&t=l3DJ-c0gQXtaCO8Owek_SuPNQrXL_6AJh-BztU_j6Nc",
+                                                "height": 100,
+                                                "width": 100
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "200_200/0/1575849623710?e=1637193600&v=beta&t=Vofp1lgSBzzLyWEjyMuVMvjplDxcc4HR-ZdR10afZO0",
+                                                "height": 200,
+                                                "width": 200
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "400_400/0/1575849623710?e=1637193600&v=beta&t=vOgOqKwcb75vYyvWOASbBao5vwJHVXTmy04nL5TwIo4",
+                                                "height": 400,
+                                                "width": 400
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "800_800/0/1575849623710?e=1637193600&v=beta&t=nMBXQiuA-WhwkQ0cnO0l6RU32LyUNhWG_lHpN0DltSI",
+                                                "height": 800,
+                                                "width": 800
+                                            }
+                                        ],
+                                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQErvdkiStM7IA/profile-displayphoto-shrink_"
+                                    }
+                                },
+                                "displayImageUrn": "urn:li:digitalmediaAsset:C4E03AQErvdkiStM7IA",
+                                "photoFilterEditInfo": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.PhotoFilterEditInfo",
+                                    "bottomLeft": {
+                                        "x": -0.07456480853931902,
+                                        "y": 0.6279776342064813
+                                    },
+                                    "bottomRight": {
+                                        "x": 0.886954282982012,
+                                        "y": 0.7747837862595338
+                                    },
+                                    "brightness": 0,
+                                    "contrast": 0,
+                                    "photoFilterType": "ORIGINAL",
+                                    "saturation": 0,
+                                    "topLeft": {
+                                        "x": 0.1298123835345383,
+                                        "y": -0.06269100899898153
+                                    },
+                                    "topRight": {
+                                        "x": 1.0913314750558694,
+                                        "y": 0.08411514305407093
+                                    },
+                                    "vignette": 0
+                                }
+                            },
+                            "publicIdentifier": "hamzamanzoor"
+                        },
+                        "profileUrn": "urn:li:fsd_profile:ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE"
+                    }
+                }
+            ],
+            "entityUrn": "urn:li:fsd_profilePublication:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1743611427)",
+            "multiLocaleName": {
+                "en_US": "Auto-Grading Jupyter Notebooks"
+            },
+            "multiLocalePublisher": {
+                "en_US": "SIGCSE '20: Proceedings of the 51st ACM Technical Symposium on Computer Science Education"
+            },
+            "name": "Auto-Grading Jupyter Notebooks",
+            "publishedOn": {
+                "day": 10,
+                "month": 2,
+                "year": 2020
+            },
+            "publisher": "SIGCSE '20: Proceedings of the 51st ACM Technical Symposium on Computer Science Education",
+            "url": "https://doi.org/10.1145/3328778.3366947"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePublication",
+            "authors": [
+                {
+                    "standardizedContributor": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                        "profile": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                            "entityUrn": "urn:li:fsd_profile:ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE",
+                            "firstName": "Hamza",
+                            "headline": "Software Engineer at Facebook",
+                            "lastName": "M.",
+                            "profilePicture": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.OriginalAndDisplayImage",
+                                "displayImageReference": {
+                                    "vectorImage": {
+                                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.originalanddisplayimage.Anon1",
+                                        "artifacts": [
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "100_100/0/1575849623710?e=1637193600&v=beta&t=l3DJ-c0gQXtaCO8Owek_SuPNQrXL_6AJh-BztU_j6Nc",
+                                                "height": 100,
+                                                "width": 100
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "200_200/0/1575849623710?e=1637193600&v=beta&t=Vofp1lgSBzzLyWEjyMuVMvjplDxcc4HR-ZdR10afZO0",
+                                                "height": 200,
+                                                "width": 200
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "400_400/0/1575849623710?e=1637193600&v=beta&t=vOgOqKwcb75vYyvWOASbBao5vwJHVXTmy04nL5TwIo4",
+                                                "height": 400,
+                                                "width": 400
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "800_800/0/1575849623710?e=1637193600&v=beta&t=nMBXQiuA-WhwkQ0cnO0l6RU32LyUNhWG_lHpN0DltSI",
+                                                "height": 800,
+                                                "width": 800
+                                            }
+                                        ],
+                                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQErvdkiStM7IA/profile-displayphoto-shrink_"
+                                    }
+                                },
+                                "displayImageUrn": "urn:li:digitalmediaAsset:C4E03AQErvdkiStM7IA",
+                                "photoFilterEditInfo": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.PhotoFilterEditInfo",
+                                    "bottomLeft": {
+                                        "x": -0.07456480853931902,
+                                        "y": 0.6279776342064813
+                                    },
+                                    "bottomRight": {
+                                        "x": 0.886954282982012,
+                                        "y": 0.7747837862595338
+                                    },
+                                    "brightness": 0,
+                                    "contrast": 0,
+                                    "photoFilterType": "ORIGINAL",
+                                    "saturation": 0,
+                                    "topLeft": {
+                                        "x": 0.1298123835345383,
+                                        "y": -0.06269100899898153
+                                    },
+                                    "topRight": {
+                                        "x": 1.0913314750558694,
+                                        "y": 0.08411514305407093
+                                    },
+                                    "vignette": 0
+                                }
+                            },
+                            "publicIdentifier": "hamzamanzoor"
+                        },
+                        "profileUrn": "urn:li:fsd_profile:ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE"
+                    }
+                }
+            ],
+            "entityUrn": "urn:li:fsd_profilePublication:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1743582738)",
+            "multiLocaleName": {
+                "en_US": "Crossing the Borders: Re-Use of Smart Learning Objects in Advanced Content Access Systems"
+            },
+            "multiLocalePublisher": {
+                "en_US": "Future Internet — Open Access Journal"
+            },
+            "name": "Crossing the Borders: Re-Use of Smart Learning Objects in Advanced Content Access Systems",
+            "publishedOn": {
+                "day": 19,
+                "month": 7,
+                "year": 2019
+            },
+            "publisher": "Future Internet — Open Access Journal",
+            "url": "https://www.mdpi.com/1999-5903/11/7/160"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePublication",
+            "authors": [
+                {
+                    "standardizedContributor": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                        "profile": {
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                            "entityUrn": "urn:li:fsd_profile:ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE",
+                            "firstName": "Hamza",
+                            "headline": "Software Engineer at Facebook",
+                            "lastName": "M.",
+                            "profilePicture": {
+                                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.OriginalAndDisplayImage",
+                                "displayImageReference": {
+                                    "vectorImage": {
+                                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.originalanddisplayimage.Anon1",
+                                        "artifacts": [
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "100_100/0/1575849623710?e=1637193600&v=beta&t=l3DJ-c0gQXtaCO8Owek_SuPNQrXL_6AJh-BztU_j6Nc",
+                                                "height": 100,
+                                                "width": 100
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "200_200/0/1575849623710?e=1637193600&v=beta&t=Vofp1lgSBzzLyWEjyMuVMvjplDxcc4HR-ZdR10afZO0",
+                                                "height": 200,
+                                                "width": 200
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "400_400/0/1575849623710?e=1637193600&v=beta&t=vOgOqKwcb75vYyvWOASbBao5vwJHVXTmy04nL5TwIo4",
+                                                "height": 400,
+                                                "width": 400
+                                            },
+                                            {
+                                                "expiresAt": 1637193600000,
+                                                "fileIdentifyingUrlPathSegment": "800_800/0/1575849623710?e=1637193600&v=beta&t=nMBXQiuA-WhwkQ0cnO0l6RU32LyUNhWG_lHpN0DltSI",
+                                                "height": 800,
+                                                "width": 800
+                                            }
+                                        ],
+                                        "rootUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQErvdkiStM7IA/profile-displayphoto-shrink_"
+                                    }
+                                },
+                                "displayImageUrn": "urn:li:digitalmediaAsset:C4E03AQErvdkiStM7IA",
+                                "photoFilterEditInfo": {
+                                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.PhotoFilterEditInfo",
+                                    "bottomLeft": {
+                                        "x": -0.07456480853931902,
+                                        "y": 0.6279776342064813
+                                    },
+                                    "bottomRight": {
+                                        "x": 0.886954282982012,
+                                        "y": 0.7747837862595338
+                                    },
+                                    "brightness": 0,
+                                    "contrast": 0,
+                                    "photoFilterType": "ORIGINAL",
+                                    "saturation": 0,
+                                    "topLeft": {
+                                        "x": 0.1298123835345383,
+                                        "y": -0.06269100899898153
+                                    },
+                                    "topRight": {
+                                        "x": 1.0913314750558694,
+                                        "y": 0.08411514305407093
+                                    },
+                                    "vignette": 0
+                                }
+                            },
+                            "publicIdentifier": "hamzamanzoor"
+                        },
+                        "profileUrn": "urn:li:fsd_profile:ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE"
+                    }
+                }
+            ],
+            "entityUrn": "urn:li:fsd_profilePublication:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,1743645553)",
+            "multiLocaleName": {
+                "en_US": "Design and Development of a Packet Processing Node for Core Mobile Networks"
+            },
+            "multiLocalePublisher": {
+                "en_US": "IACST 2017"
+            },
+            "name": "Design and Development of a Packet Processing Node for Core Mobile Networks",
+            "publisher": "IACST 2017",
+            "url": "http://iacst.org/iacst/Conferences/icct2017/uploads/ICCT2017_107_The_Packet_Processing_Node_For_Core_Mobile_Networs.doc"
+        }
+    ],
+    "profileSkills": [
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,51)",
+            "multiLocaleName": {
+                "en_US": "Machine Learning"
+            },
+            "name": "Machine Learning"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,21)",
+            "multiLocaleName": {
+                "en_US": "Java"
+            },
+            "name": "Java"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,10)",
+            "multiLocaleName": {
+                "en_US": "PHP"
+            },
+            "name": "PHP"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,15)",
+            "multiLocaleName": {
+                "en_US": "jQuery"
+            },
+            "name": "jQuery"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,16)",
+            "multiLocaleName": {
+                "en_US": "C++"
+            },
+            "name": "C++"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,48)",
+            "multiLocaleName": {
+                "en_US": "Big Data Analytics"
+            },
+            "name": "Big Data Analytics"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,17)",
+            "multiLocaleName": {
+                "en_US": "Mobile Applications"
+            },
+            "name": "Mobile Applications"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,5)",
+            "multiLocaleName": {
+                "en_US": "Python"
+            },
+            "name": "Python"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,18)",
+            "multiLocaleName": {
+                "en_US": "HTML"
+            },
+            "name": "HTML"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,19)",
+            "multiLocaleName": {
+                "en_US": "MySQL"
+            },
+            "name": "MySQL"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,20)",
+            "multiLocaleName": {
+                "en_US": "WordPress"
+            },
+            "name": "WordPress"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,22)",
+            "multiLocaleName": {
+                "en_US": "C#"
+            },
+            "name": "C#"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,63)",
+            "multiLocaleName": {
+                "en_US": "Data Mining"
+            },
+            "name": "Data Mining"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,23)",
+            "multiLocaleName": {
+                "en_US": "Android"
+            },
+            "name": "Android"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,6)",
+            "multiLocaleName": {
+                "en_US": "Ruby on Rails"
+            },
+            "name": "Ruby on Rails"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,24)",
+            "multiLocaleName": {
+                "en_US": "Android Development"
+            },
+            "name": "Android Development"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,25)",
+            "multiLocaleName": {
+                "en_US": "Programming"
+            },
+            "name": "Programming"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,29)",
+            "multiLocaleName": {
+                "en_US": "Joomla"
+            },
+            "name": "Joomla"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,30)",
+            "multiLocaleName": {
+                "en_US": "Website Development"
+            },
+            "name": "Website Development"
+        },
+        {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill",
+            "entityUrn": "urn:li:fsd_skill:(ACoAABDy8awBsUaW4IkbtPTf03hGFOwChsDifoE,31)",
+            "multiLocaleName": {
+                "en_US": "AJAX"
+            },
+            "name": "AJAX"
+        }
+    ],
+    "profileTestScores": [],
+    "profileTreasuryMediaProfile": [],
+    "profileVolunteerExperiences": [],
+    "supportedLocales": [
+        {
+            "$anti_abuse_annotations": [
+                {
+                    "attributeId": 24,
+                    "entityId": 1
+                },
+                {
+                    "attributeId": 24,
+                    "entityId": 1
+                }
+            ],
+            "country": "US",
+            "language": "en"
+        }
+    ],
+    "volunteerCauses": [
+        "CHILDREN",
+        "CIVIL_RIGHTS",
+        "ECONOMIC_EMPOWERMENT",
+        "EDUCATION",
+        "ENVIRONMENT",
+        "HEALTH",
+        "HUMAN_RIGHTS",
+        "HUMANITARIAN_RELIEF",
+        "POVERTY_ALLEVIATION",
+        "SCIENCE_AND_TECHNOLOGY",
+        "SOCIAL_SERVICES"
+    ]
+}
