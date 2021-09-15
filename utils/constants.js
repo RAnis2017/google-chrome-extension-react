@@ -49,3 +49,7 @@ module.exports = {
 /////?????????? ???////// FULL COMPLETE PROFILE
 // https://www.linkedin.com/voyager/api/identity/dash/profiles?q=memberIdentity&memberIdentity=raza-anis-genesishex&decorationId=com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-47
 // https://www.linkedin.com/voyager/api/identity/dash/profiles?q=memberIdentity&memberIdentity=nadia-parello-6b2260a4&decorationId=com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-47
+
+
+
+https://www.linkedin.com/voyager/api/organization/companies?decorationId=com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-37&q=universalName&universalName=qavi-technologies

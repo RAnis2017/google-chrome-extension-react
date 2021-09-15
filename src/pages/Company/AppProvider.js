@@ -137,6 +137,23 @@ class AppProvider extends Component {
             .then((res) => {
                 if (res?.elements[0]) {
 
+                    let experience = []
+                    res?.elements[0]?.profilePositionGroups?.elements.map((position) => {
+                        experience.push({
+                            'company_name': position?.companyName,
+                            'urn': position?.companyUrn,
+                            'universalName': position?.company?.universalName,
+                            'logo': `${position?.company?.logo?.vectorImage?.rootUrl}${position?.company?.logo?.vectorImage?.artifacts[2].fileIdentifyingUrlPathSegment}`,
+                            'description': position?.profilePositionInPositionGroup[0]?.description,
+                            'start': `${position?.dateRange?.start?.month}-${position?.dateRange?.start?.year}`,
+                            'end': `${position?.dateRange?.end?.month}-${position?.dateRange?.end?.year}`,
+                            'location': position?.locationName,
+                            'title': position?.title,
+                            'companySize': position?.company?.employeeCountRange?.end,
+                            'companyPageUrl': position?.company?.url
+                        })
+                    })
+
                     this.state.profiles[this.state.selectedCompany.id].fullProfiles.push({
                         firstName: res?.elements[0]?.firstName,
                         lastName: res?.elements[0]?.lastName,
