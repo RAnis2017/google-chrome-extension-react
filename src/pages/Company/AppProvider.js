@@ -1,6 +1,6 @@
 import AppContext from './AppContext';
 import React, { Component } from "react";
-import { companiesUrl, searchResultsOnCompany, getFullProfileByID } from '../../../utils/constants';
+import { companiesUrl, searchResultsOnCompany, getFullProfileByID, getAllSkills, getAllExperiences, getAllEducations, getCompanyDetails } from '../../../utils/constants';
 
 class AppProvider extends Component {
     state = {
@@ -22,7 +22,16 @@ class AppProvider extends Component {
 
         chrome.storage.local.get(['JSESSIONID'], (item) => {
             console.log('Session ID', item.JSESSIONID);
-            this.setState({ csrfToken: item.JSESSIONID })
+
+            let csrf;
+
+            try {
+                csrf = JSON.parse(item.JSESSIONID)
+            } catch (error) {
+                csrf = item.JSESSIONID
+            }
+
+            this.setState({ csrfToken: csrf })
         })
 
         if (params.runJob) {
@@ -55,7 +64,8 @@ class AppProvider extends Component {
     runSearchWithDelay(start) {
         console.log('Calling for start starting from:', start)
         console.log('Calling for selected company:', this.state.selectedCompany)
-        fetch(searchResultsOnCompany.replace('<COMPANY_CODE>', this.state.selectedCompany[0].id).replace('<START>', start), { method: 'GET', headers: { 'csrf-token': JSON.parse(this.state.csrfToken) /*this.state.csrfToken*/, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
+
+        fetch(searchResultsOnCompany.replace('<COMPANY_CODE>', this.state.selectedCompany[0].id).replace('<START>', start), { method: 'GET', headers: { 'csrf-token': this.state.csrfToken /*this.state.csrfToken*/, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
             .then((res) => {
                 let index = (start === 0) ? 1 : 0
 
@@ -133,73 +143,123 @@ class AppProvider extends Component {
 
     runFullProfileSearchWithDelay(profileID, index) {
         console.log('Calling for profile info starting from:', profileID)
-        fetch(getFullProfileByID.replace('<PROFILE_ID>', profileID.replace('in/', '').replace('?', '')), { method: 'GET', headers: { 'csrf-token': JSON.parse(this.state.csrfToken) /*this.state.csrfToken*/, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
-            .then((res) => {
-                if (res?.elements[0]) {
 
-                    let experience = []
-                    res?.elements[0]?.profilePositionGroups?.elements.map((position) => {
-                        experience.push({
-                            'company_name': position?.companyName,
-                            'urn': position?.companyUrn,
-                            'universalName': position?.company?.universalName,
-                            'logo': `${position?.company?.logo?.vectorImage?.rootUrl}${position?.company?.logo?.vectorImage?.artifacts[2].fileIdentifyingUrlPathSegment}`,
-                            'description': position?.profilePositionInPositionGroup[0]?.description,
-                            'start': `${position?.dateRange?.start?.month}-${position?.dateRange?.start?.year}`,
-                            'end': `${position?.dateRange?.end?.month}-${position?.dateRange?.end?.year}`,
-                            'location': position?.locationName,
-                            'title': position?.title,
-                            'companySize': position?.company?.employeeCountRange?.end,
-                            'companyPageUrl': position?.company?.url
+        setTimeout(async () => {
+            let skillsRes = await fetch(getAllSkills.replace('<PROFILE_ID>', profileID.replace('in/', '').replace('?', '')), { method: 'GET', headers: { 'csrf-token': this.state.csrfToken /*this.state.csrfToken*/, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
+
+            fetch(getFullProfileByID.replace('<PROFILE_ID>', profileID.replace('in/', '').replace('?', '')), { method: 'GET', headers: { 'csrf-token': this.state.csrfToken /*this.state.csrfToken*/, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
+                .then(async (res) => {
+                    if (res?.elements[0]) {
+
+                        let experiences = []
+                        let currentCompany = {};
+                        let skills = []
+                        let educations = []
+
+                        skillsRes?.elements.map((skill) => {
+                            skill?.endorsedSkills.map((endorsedSkill) => {
+                                skills.push(endorsedSkill.skill.name)
+                            })
                         })
-                    })
 
-                    this.state.profiles[this.state.selectedCompany.id].fullProfiles.push({
-                        firstName: res?.elements[0]?.firstName,
-                        lastName: res?.elements[0]?.lastName,
-                        birthDateMonth: res?.elements[0]?.birthDateOn?.month,
-                        birthDateDay: res?.elements[0]?.birthDateOn?.day,
-                        headline: res?.elements[0]?.headline,
-                        industryName: res?.elements[0]?.industry?.name,
-                        isInfluencer: res?.elements[0]?.influencer,
-                        countryCode: res?.elements[0]?.location?.countryCode,
-                        primaryLocaleCountry: res?.elements[0]?.primaryLocale?.country,
-                        primaryLocaleLanguage: res?.elements[0]?.primaryLocale?.language,
-                        profileCertifications: res?.elements[0]?.profileCertifications?.elements,
-                        profileCourses: res?.elements[0]?.profileCourses?.elements,
-                        profileEducations: res?.elements[0]?.profileEducations?.elements,
-                        profileHonors: res?.elements[0]?.profileHonors?.elements,
-                        profileLanguages: res?.elements[0]?.profileLanguages?.elements,
-                        profileOrganizations: res?.elements[0]?.profileOrganizations?.elements,
-                        profilePatents: res?.elements[0]?.profilePatents?.elements,
-                        profilePicture: res?.elements[0]?.profilePicture?.displayImageReference?.vectorImage?.artifacts[3]?.fileIdentifyingUrlPathSegment,
-                        profilePictureRootUrl: res?.elements[0]?.profilePicture?.displayImageReference?.vectorImage?.rootUrl,
-                        profilePositionGroups: res?.elements[0]?.profilePositionGroups?.elements,
-                        profileProjects: res?.elements[0]?.profileProjects?.elements,
-                        profilePublications: res?.elements[0]?.profilePublications?.elements,
-                        profileSkills: res?.elements[0]?.profileSkills?.elements,
-                        profileTestScores: res?.elements[0]?.profileTestScores?.elements,
-                        profileTreasuryMediaProfile: res?.elements[0]?.profileTreasuryMediaProfile?.elements,
-                        profileVolunteerExperiences: res?.elements[0]?.profileVolunteerExperiences?.elements,
-                        volunteerCauses: res?.elements[0]?.volunteerCauses,
-                        supportedLocales: res?.elements[0]?.supportedLocales
-                    })
+                        let experiencesRes = await fetch(getAllExperiences.replace('<PROFILE_URN>', res?.elements[0]?.entityUrn.replace(/:/g, '%3A')), { method: 'GET', headers: { 'csrf-token': this.state.csrfToken /*this.state.csrfToken*/, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
+                        console.log(experiencesRes)
 
-                    chrome.storage.local.set({ organizations: this.state.profiles }, () => {
-                        chrome.storage.local.get(['organizations'], (item) => {
-                            console.log('Saved Profiles For Organization', item)
+                        let educationsRes = await fetch(getAllEducations.replace('<PROFILE_URN>', res?.elements[0]?.entityUrn.replace(/:/g, '%3A')), { method: 'GET', headers: { 'csrf-token': this.state.csrfToken /*this.state.csrfToken*/, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
+                        console.log(educationsRes)
+
+                        educationsRes?.elements.map((education) => {
+                            educations.push({
+                                degreeName: education?.degreeName,
+                                fieldOfStudy: education?.fieldOfStudy,
+                                schoolName: education?.schoolName,
+                                start: education?.dateRange?.start?.month + '-' + education?.dateRange?.start?.year,
+                                end: education?.dateRange?.end?.month + '-' + education?.dateRange?.end?.year
+                            })
                         })
-                    })
 
-                    setTimeout(() => {
-                        console.log('Calling callback again for searching...')
-                        chrome.storage.local.get(['companies'], (company) => {
-                            index += 1
-                            this.runFullProfileSearchWithDelay(company.companies[this.state.selectedCompany.id].shallowResults[index].profileUrlID, index)
+                        var promises = res?.elements[0]?.profilePositionGroups?.elements.map((position) => {
+                            return fetch(getCompanyDetails.replace('<COMPANY_NAME>', position?.company?.universalName), { method: 'GET', headers: { 'csrf-token': this.state.csrfToken, 'x-restli-protocol-version': '2.0.0' } })
+                                .then((res) => res.json())
                         })
-                    }, Math.floor(Math.random() * 25000))
-                }
-            })
+                        Promise.all(promises).then((results) => {
+                            console.log(results)
+                            res?.elements[0]?.profilePositionGroups?.elements.map((position, index) => {
+                                if (index == 0) {
+                                    currentCompany.current_company_website = results[index]?.elements[0]?.companyPageUrl
+                                    currentCompany.company_linkedin_url = position?.company?.url
+                                    currentCompany.current_company_specialties = results[index]?.elements[0]?.specialities
+                                    currentCompany.current_company_size = position?.company?.employeeCountRange?.end
+                                    currentCompany.current_company_name = position?.companyName
+                                    currentCompany.current_company_industry = results[index]?.elements[0]?.companyIndustries.map((industry) => industry?.localizedName)
+                                    currentCompany.title = position?.profilePositionInPositionGroup.elements[0]?.title
+                                }
+                                experiences.push({
+                                    'company_name': position?.companyName,
+                                    'urn': position?.companyUrn,
+                                    'universalName': position?.company?.universalName,
+                                    'logo': `${position?.company?.logo?.vectorImage?.rootUrl}${position?.company?.logo?.vectorImage?.artifacts[2].fileIdentifyingUrlPathSegment}`,
+                                    'description': position?.profilePositionInPositionGroup.elements[0]?.description,
+                                    'start': `${position?.dateRange?.start?.month}-${position?.dateRange?.start?.year}`,
+                                    'end': `${position?.dateRange?.end?.month}-${position?.dateRange?.end?.year}`,
+                                    'location': position?.locationName,
+                                    'title': position?.profilePositionInPositionGroup.elements[0]?.title,
+                                    'companySize': position?.company?.employeeCountRange?.end,
+                                    'companyPageUrl': position?.company?.url,
+                                    'companyWebsite': results[index]?.elements[0]?.companyPageUrl,
+                                    'companySpecialities': results[index]?.elements[0]?.specialities,
+                                    'companyType': results[index]?.elements[0]?.companyType?.localizedName,
+                                    'companyIndustries': results[index]?.elements[0]?.companyIndustries.map((industry) => industry?.localizedName)
+                                })
+                            })
+
+                            this.state.profiles[this.state.selectedCompany.id].fullProfiles.push({
+                                firstName: res?.elements[0]?.firstName,
+                                lastName: res?.elements[0]?.lastName,
+                                full_name: res?.elements[0]?.firstName + ' ' + res?.elements[0]?.lastName,
+                                birthDateMonth: res?.elements[0]?.birthDateOn?.month,
+                                birthDateDay: res?.elements[0]?.birthDateOn?.day,
+                                headline: res?.elements[0]?.headline,
+                                scrapeType: 'DEEP',
+                                trackingId: res?.elements[0]?.trackingId,
+                                summary: res?.elements[0]?.summary,
+                                versionTag: res?.elements[0]?.versionTag,
+                                locationName: res?.elements[0]?.geoLocation?.geo?.country?.defaultLocalizedName,
+                                geoName: res?.elements[0]?.geoLocation?.geo?.defaultLocalizedName,
+                                industry: res?.elements[0]?.industry?.name,
+                                isInfluencer: res?.elements[0]?.influencer,
+                                countryCode: res?.elements[0]?.location?.countryCode,
+                                experience: experiences,
+                                picture: res?.elements[0]?.profilePicture?.displayImageReference?.vectorImage?.rootUrl + '' + res?.elements[0]?.profilePicture?.displayImageReference?.vectorImage?.artifacts[3]?.fileIdentifyingUrlPathSegment,
+                                schoolName: res?.elements[0]?.profileEducations?.elements[0]?.schoolName,
+                                fieldOfStudy: res?.elements[0]?.profileEducations?.elements[0]?.degreeName,
+                                entityUrn: res?.elements[0]?.profileEducations?.elements[0]?.entityUrn,
+                                ...currentCompany,
+                                profileCertifications: res?.elements[0]?.profileCertifications?.elements,
+                                profileCourses: res?.elements[0]?.profileCourses?.elements,
+                                profileEducations: educations,
+                                profileSkills: skills,
+                                completeExperiences: experiencesRes
+                            })
+                        })
+
+                        chrome.storage.local.set({ organizations: this.state.profiles }, () => {
+                            chrome.storage.local.get(['organizations'], (item) => {
+                                console.log('Saved Profiles For Organization', item)
+                            })
+                        })
+
+                        setTimeout(() => {
+                            console.log('Calling callback again for searching...')
+                            chrome.storage.local.get(['companies'], (company) => {
+                                index += 1
+                                this.runFullProfileSearchWithDelay(company.companies[this.state.selectedCompany.id].shallowResults[index].profileUrlID, index)
+                            })
+                        }, Math.floor(Math.random() * 25000))
+                    }
+                })
+        }, 5000 + Math.floor(Math.random() * 25000))
+
     }
 
     render() {
@@ -223,7 +283,7 @@ class AppProvider extends Component {
                     textChange: text => {
                         const company = text;
 
-                        fetch(companiesUrl.replace('<KEYWORD>', company), { method: 'GET', headers: { 'csrf-token': JSON.parse(this.state.csrfToken), 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
+                        fetch(companiesUrl.replace('<KEYWORD>', company), { method: 'GET', headers: { 'csrf-token': this.state.csrfToken, 'x-restli-protocol-version': '2.0.0' } }).then((res) => res.json())
                             .then((res) => {
                                 console.log(res)
 

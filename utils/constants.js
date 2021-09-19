@@ -1,7 +1,11 @@
 module.exports = {
     companiesUrl: 'https://www.linkedin.com/voyager/api/typeahead/hitsV2?keywords=<KEYWORD>&origin=OTHER&q=type&type=COMPANY',
     searchResultsOnCompany: 'https://www.linkedin.com/voyager/api/search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-120&origin=FACETED_SEARCH&q=all&query=(flagshipSearchIntent:SEARCH_SRP,queryParameters:(currentCompany:List(<COMPANY_CODE>),resultType:List(PEOPLE)),includeFiltersInResponse:false)&start=<START>',
-    getFullProfileByID: 'https://www.linkedin.com/voyager/api/identity/dash/profiles?q=memberIdentity&memberIdentity=<PROFILE_ID>&decorationId=com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-47'
+    getFullProfileByID: 'https://www.linkedin.com/voyager/api/identity/dash/profiles?q=memberIdentity&memberIdentity=<PROFILE_ID>&decorationId=com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-47',
+    getAllSkills: 'https://www.linkedin.com/voyager/api/identity/profiles/<PROFILE_ID>/skillCategory?includeHiddenEndorsers=true',
+    getAllExperiences: 'https://www.linkedin.com/voyager/api/identity/dash/profilePositions?q=viewee&profileUrn=<PROFILE_URN>&COUNT=50', // use urn but instead of : replace it with %3A
+    getAllEducations: 'https://www.linkedin.com/voyager/api/identity/dash/profileEducations?q=viewee&profileUrn=<PROFILE_URN>&COUNT=50', // use urn but instead of : replace it with %3A
+    getCompanyDetails: 'https://www.linkedin.com/voyager/api/organization/companies?decorationId=com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-37&q=universalName&universalName=<COMPANY_NAME>',
 }
 
 
@@ -52,4 +56,12 @@ module.exports = {
 
 
 
-https://www.linkedin.com/voyager/api/organization/companies?decorationId=com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-37&q=universalName&universalName=qavi-technologies
+// https://www.linkedin.com/voyager/api/organization/companies?decorationId=com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-37&q=universalName&universalName=qavi-technologies
+
+// https://www.linkedin.com/voyager/api/identity/profiles/raza-anis-genesishex/profileContactInfo
+
+// https://www.linkedin.com/voyager/api/organization/companies?decorationId=com.linkedin.voyager.deco.organization.web.WebFullCompanyMain-37&q=companyUrn&companyUrn=urn%3Ali%3Afsd_company%3A1441
+
+
+
+// MY URN urn%3Ali%3Afsd_profile%3AACoAABpLf8gBNoz6LqzchXoPE_ZfzQfUZCM9abw
