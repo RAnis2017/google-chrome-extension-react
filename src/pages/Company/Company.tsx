@@ -6,6 +6,8 @@ import { Typeahead } from 'react-bootstrap-typeahead';
 import 'react-bootstrap-typeahead/css/Typeahead.css';
 import OrganizationChart from "@dabeng/react-orgchart";
 import OrgNode from "./custom-org-node.js";
+import loading from '../../assets/img/loading.gif';
+
 interface Props {
   title: string;
 }
@@ -95,6 +97,9 @@ const Company: React.FC<Props> = ({ title }: Props) => {
     ]
   };
 
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  const params = Object.fromEntries(urlSearchParams.entries());
+
   return <AppContext.Consumer>
     {
       (context: any) => (
@@ -111,11 +116,18 @@ const Company: React.FC<Props> = ({ title }: Props) => {
               options={context.companiesTypeAhead}
             />
           </div>
-
           <div className="mb-3">
             <button className="btn btn-primary btn-sm" onClick={() => context.runSearch(0)}>Search</button>
           </div>
+          <div className="mb-3 text-center">
+            <p>Shallow Searching all profiles for People from Organization: <span className="companyText">{context?.selectedCompany?.label}</span></p>
+            <p>Total Profiles to DEEP Search: {params.selectedJob ? context?.companies[params?.selectedJob]?.shallowResults?.length : context?.companies[context?.selectedCompany[0]?.id]?.shallowResults?.length}</p>
+            <p>{params.selectedJob && params.runJob ? 'Total Profiles Searched: ' + context?.profiles[params?.selectedJob]?.fullProfiles.length : ''}</p>
+          </div>
+          <div>
+            {context?.isSearching || params.runJob ? <img src={loading} className="" width="180" alt="Logo" /> : ''}
 
+          </div>
           {
             (orgData) ?
               <OrganizationChart

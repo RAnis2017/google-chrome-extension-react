@@ -50,11 +50,18 @@ class AppProvider extends Component {
 
             })
         } else {
+            chrome.storage.local.get(['companies'], (company) => {
+                this.setState({ companies: company.companies })
+                console.log('COMPANIES', company.companies)
+            })
             chrome.storage.local.get(['searchJobs'], (item) => {
                 console.log('Company Searches', item)
+                let index = item.searchJobs[0].findIndex((job) => parseInt(job.id) === parseInt(params.selectedJob))
+                if (index) {
+                    let selectedCompany = { id: item.searchJobs[0][index].id, label: item.searchJobs[0][index].label }
 
-                if (item?.length > 0)
-                    this.setState({ searchJobs: item })
+                    this.setState({ searchJobs: item, selectedCompany })
+                }
             })
         }
 
@@ -133,9 +140,11 @@ class AppProvider extends Component {
                             this.runSearchWithDelay(start + 10)
                         }, Math.floor(Math.random() * 15000))
                     } else {
+                        this.setState({ isSearching: false })
                         console.log('STOPPED: Calling callback again for searching...')
                     }
                 } else {
+                    this.setState({ isSearching: false })
                     console.warn('STOPPED: Calling callback again for searching...')
                 }
             })
@@ -304,7 +313,7 @@ class AppProvider extends Component {
                     },
                     runSearch: (start) => {
                         if (start == 0)
-                            this.state.isSearching = true;
+                            this.setState({ isSearching: true })
 
                         console.log(this.state.searchJobs)
                         chrome.storage.local.set({ 'searchJobs': [...this.state.searchJobs, this.state.selectedCompany] }, () => {
